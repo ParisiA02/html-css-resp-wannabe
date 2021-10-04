@@ -74,29 +74,51 @@ img {
 
 /* responsive */
 @media all and (max-width:419px){
+
   .row{
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 50px;
+  }
+
+  #lezioni.container{
+    margin-bottom: 300px;
+  }
+
+  #steps.container.grey{
+    margin-bottom: 300px;
   }
 
   h1{
     font-size: 90px;
   }
+
   h3{
     font-size: 70px;
   }
+
   #lezioni .row>.left, #lezioni .row>.right{
     width: 75%;
   }
-  .left{
-    font-size: 50px;
-  }
+
   .right{
     margin-top: 50px;
-    font-size: 50px;
   }
+
   .container.grey{
     width: 980px;
+  }
+
+  #steps .row>.left, #steps .row>.central, #steps .row>.right{
+    width: 75%;
+  }
+
+  .central{
+    margin-top: 50px;
+  }
+  
+  #why.container.grey > .row{
+    width: 75%;
   }
 }
